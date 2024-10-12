@@ -238,7 +238,7 @@ margin-top: 32px;
 /* inspiration section  */
 .inspiration-section {
     width: 1140px;
-    border: 1px solid red;
+   
     margin: 0px auto;
     background: #FFF;
 
@@ -278,9 +278,124 @@ margin: 10px auto;
     border-radius: 16px;
 border: 1px solid rgba(13, 19, 33, 0.20);
 margin-top: 40px;
-border: 1px solid red;
+
 padding: 32px;
 }
 .video-play {
     border-radius: 16px;
+}
+
+/* target section  */
+.target-section {
+   width: 1140px;
+   
+    margin: 0px auto;
+    background: #FFF;
+    border: 1px solid red;
+    height: 100vh;
+    margin-top: 150px;
+
+}
+.target-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.target-title h1 {
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.target-title p {
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+opacity: 0.7;
+width: 70%;
+margin-top: 24px;
+}
+.target-list {
+    margin-top: 48px;
+    border: 1px solid red;
+    display: flex;
+    gap: 24px;
+}
+.target-card {
+    border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+padding: 40px;
+border: 1px solid red;
+
+}
+.target-card h1{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px;
+}
+.target-card p {
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.target-card a {
+    text-decoration: none; 
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+.target-card-2 {
+   border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+padding: 40px;
+border: 1px solid red;
+
+}
+.target-card-2 h1{
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 36px;
+}
+.target-card-2 p {
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.target-card-2 a {
+    text-decoration: none; 
+    color: #0D1321;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
 }
