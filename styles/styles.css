@@ -76,6 +76,9 @@ font-weight: 400;
 line-height: 26px
 
 }
+.with {
+    text-decoration: none;
+}
 .banner-content button {
     display: flex;
 padding: 21px 24px;
@@ -507,15 +510,16 @@ line-height: normal;
 }
 footer {
     margin-top: 150px;
-    border: 1px solid red;
+    
 }
 .footer-container{
     width: 1140px;
     margin: 0px auto;
-      border: 1px solid red;
+     
       
       display: flex;
       justify-content: space-between;
+      margin-bottom: 50px;
        
 }
 .footer-container h1 {
@@ -527,7 +531,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.icon {
-    margin-right: 5px;
+.icon a {
+    margin-right: 10px;
 }
 
