@@ -28,6 +28,9 @@ font-family: "Azeret Mono";
 font-size: 18px;
 font-weight: 400;
 line-height: normal;
+border-radius: 8px;
+border: 1px solid #0D1321;
+opacity: 0.8;
 }
 nav h1{
     color: #0D1321;
